@@ -16,7 +16,7 @@ For Defense to act upon malicious users it's highest role must be higher then th
 
 3) Invoke The Setup Command
 -----
-The Setup command integrated into Defense makes it extremely easy to setup Defense for your server, and be ready for any attacks. To quickly setup Defense for your server, invoke `/setup`. Note: You must have Administrator Permissions to invoke this command. The setup command will start a process which will check **2** things. If any of the checks fail, then Defense will cancel the process and notify you.
+The Setup command integrated into Defense makes it extremely easy to setup Defense for your server, and be ready for any attacks. To quickly setup Defense for your server, invoke ``/setup``. Note: You must have Administrator Permissions to invoke this command. The setup command will start a process which will check **2** things. If any of the checks fail, then Defense will cancel the process and notify you.
 
 - Verify that it has **Administrator Permission**
 
