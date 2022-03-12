@@ -7,7 +7,7 @@ Whitelisting is a feature that allows the Server Owner to specify users they wan
 
 Viewing The Whitelist
 ----------
-To view the whitelist, invoke `/whitelisted`. This will send a formatted list of the users currently whitelisted for the server.
+To view the whitelist, invoke ``/whitelisted``. This will send a formatted list of the users currently whitelisted for the server.
 
 **Note:** Only the server owner can use the command. It will send the list of users as an "Ephemeral Message", meaning that only the guild owner can see it. This feature was added to make sure that malicious users cannot target whitelsited users, attempting to take their account/receive info on the server to plan an attack.
 
@@ -16,7 +16,7 @@ Editing The Whitelist
 
 Adding To Whitelist
 -----
-To add a user to the whitelist, invoke `/whitelist add USER`. This will add the user to the server whitelist, and will update the database accordingly. The USER argument can take an object, meaning you can pass in any of the following:
+To add a user to the whitelist, invoke ``/whitelist add USER``. This will add the user to the server whitelist, and will update the database accordingly. The USER argument can take an object, meaning you can pass in any of the following:
 
 - @Wumpus
 
@@ -28,7 +28,7 @@ To add a user to the whitelist, invoke `/whitelist add USER`. This will add the 
 
 Removing From Whitelist
 -----
-To remove a user from the whitelist, invoke `/whitelist remove USER`. This will remove the user from the server whitelist, and will update the database accordingly. The USER argument can take an object, meaning you can pass in any of the following:
+To remove a user from the whitelist, invoke ``/whitelist remove USER``. This will remove the user from the server whitelist, and will update the database accordingly. The USER argument can take an object, meaning you can pass in any of the following:
 
 - @Wumpus
 
